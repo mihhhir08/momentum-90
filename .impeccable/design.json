@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-11T02:48:27Z",
+  "title": "Design System: Momentum",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Operational Canvas",
+        "canonical": "var(--canvas)",
+        "tonalRamp": ["#0b1016", "#17202a", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#dce1e6", "#f3f5f7"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Ledger Paper",
+        "canonical": "var(--paper)",
+        "tonalRamp": ["#0b1016", "#111821", "#1c2732", "#3a4856", "#66717d", "#a0aab5", "#edf0f3", "#ffffff"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Inset Surface",
+        "canonical": "var(--surface)",
+        "tonalRamp": ["#0b1016", "#161f29", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#edf0f3", "#f7f8fa"]
+      },
+      "surface-strong": {
+        "role": "neutral",
+        "displayName": "Strong Inset Surface",
+        "canonical": "var(--surface-strong)",
+        "tonalRamp": ["#0b1016", "#1c2732", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#dce1e6", "#edf0f3"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Primary Ink",
+        "canonical": "var(--ink)",
+        "tonalRamp": ["#0b1016", "#17202a", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#dce1e6", "#edf3f8"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "var(--muted)",
+        "tonalRamp": ["#17202a", "#27323d", "#3a4856", "#52606d", "#66717d", "#7f8a96", "#a0aab5", "#dce1e6"]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "var(--faint)",
+        "tonalRamp": ["#17202a", "#27323d", "#3a4856", "#52606d", "#66717d", "#7f8a96", "#a0aab5", "#dce1e6"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Graphite Rule",
+        "canonical": "var(--line)",
+        "tonalRamp": ["#111821", "#27323d", "#3a4856", "#66717d", "#89939e", "#a0aab5", "#c8d0d8", "#dce1e6"]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Graphite Rule",
+        "canonical": "var(--line-strong)",
+        "tonalRamp": ["#111821", "#27323d", "#3a4856", "#52606d", "#66717d", "#8e99a5", "#b3bcc5", "#c8d0d8"]
+      },
+      "live-coral": {
+        "role": "primary",
+        "displayName": "Live Coral",
+        "canonical": "var(--accent)",
+        "tonalRamp": ["#42160d", "#6b2417", "#98341f", "#c44a30", "#ef6848", "#ff7657", "#ffab98", "#fff0eb"]
+      },
+      "live-coral-soft": {
+        "role": "primary",
+        "displayName": "Live Coral Field",
+        "canonical": "var(--accent-soft)",
+        "tonalRamp": ["#2a1c19", "#47241d", "#713326", "#9f4934", "#cf6a50", "#ed9c87", "#f9cabe", "#fff0eb"]
+      },
+      "accent-ink": {
+        "role": "neutral",
+        "displayName": "Coral Foreground",
+        "canonical": "var(--accent-ink)",
+        "tonalRamp": ["#0b1016", "#17202a", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#dce1e6", "#edf3f8"]
+      },
+      "signal-ink": {
+        "role": "neutral",
+        "displayName": "Signal Foreground",
+        "canonical": "var(--signal-ink)",
+        "tonalRamp": ["#0b1016", "#17202a", "#27323d", "#3a4856", "#66717d", "#a0aab5", "#dce1e6", "#ffffff"]
+      },
+      "progress-green": {
+        "role": "secondary",
+        "displayName": "Progress Green",
+        "canonical": "var(--green)",
+        "tonalRamp": ["#082b1d", "#0c4a31", "#126b48", "#16845b", "#24a875", "#48c991", "#9be5c5", "#e9f6f0"]
+      },
+      "progress-green-soft": {
+        "role": "secondary",
+        "displayName": "Progress Green Field",
+        "canonical": "var(--green-soft)",
+        "tonalRamp": ["#13271f", "#1b3a2d", "#285442", "#3d715a", "#63977c", "#96bda9", "#c6dfd3", "#e9f6f0"]
+      },
+      "data-blue": {
+        "role": "secondary",
+        "displayName": "Data Blue",
+        "canonical": "var(--blue)",
+        "tonalRamp": ["#0b2554", "#123a82", "#194eb0", "#2563d9", "#3e82ef", "#69a8ff", "#adcfff", "#edf4ff"]
+      },
+      "data-blue-soft": {
+        "role": "secondary",
+        "displayName": "Data Blue Field",
+        "canonical": "var(--blue-soft)",
+        "tonalRamp": ["#14243a", "#1b3555", "#294c75", "#3f6696", "#6489ba", "#94b2d7", "#c5d9ee", "#edf4ff"]
+      },
+      "caution-amber": {
+        "role": "tertiary",
+        "displayName": "Caution Amber",
+        "canonical": "var(--amber)",
+        "tonalRamp": ["#402507", "#68400d", "#8c5916", "#a96f1f", "#c58a35", "#e2ad57", "#f2d49a", "#fff2d8"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Mission Display", "purpose": "The opening mission statement only." },
+      "headline": { "displayName": "Ledger Headline", "purpose": "Panel chapter headings." },
+      "title": { "displayName": "Operational Title", "purpose": "Brand and inset mission headings." },
+      "body": { "displayName": "Evidence Body", "purpose": "Explanations and operational guidance." },
+      "label": { "displayName": "Compact Label", "purpose": "Controls, metadata, tags, and chart axes." },
+      "numeric": { "displayName": "Tabular Numeric", "purpose": "Scores, counts, measurements, and KPI values." }
+    },
+    "shadows": [
+      { "name": "selected-control", "value": "inset 0 0 0 1px var(--line)", "purpose": "Identifies the active range inside a segmented control." },
+      { "name": "heatmap-inspection", "value": "0 0 0 2px var(--surface), 0 0 0 3px var(--accent)", "purpose": "Isolates a hovered consistency cell." },
+      { "name": "field-focus-halo", "value": "0 0 0 3px color-mix(in srgb, var(--blue) 18%, transparent)", "purpose": "Reinforces focus around text-entry fields." }
+    ],
+    "motion": [
+      { "name": "data-entry", "value": "500ms cubic-bezier(.16,1,.3,1)", "purpose": "Reveals trend bars and lines when data changes." },
+      { "name": "data-area", "value": "650ms cubic-bezier(.16,1,.3,1)", "purpose": "Reveals the aggregate trend area." },
+      { "name": "cell-inspection", "value": "150ms ease-out", "purpose": "Moves and outlines one heatmap cell on hover." },
+      { "name": "sync-pulse", "value": "1000ms ease infinite", "purpose": "Signals an in-progress cloud save." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Collapses animation and transition duration when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "ledger-collapse", "value": "1080px" },
+      { "name": "compact", "value": "760px" },
+      { "name": "handset", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Records or advances a real mission decision with the live coral signal.",
+      "html": "<button class=\"ds-btn-primary\">Start today</button>",
+      "css": ".ds-btn-primary { height: 36px; padding: 0 12px; border: 1px solid var(--accent); border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-family: 'Momentum Sans', sans-serif; font-size: 11px; font-weight: 700; cursor: pointer; transition: filter 150ms ease-out; } .ds-btn-primary:hover { filter: brightness(1.06); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; } .ds-btn-primary:active { filter: brightness(.96); }"
+    },
+    {
+      "name": "Theme Toggle",
+      "kind": "nav",
+      "description": "Keeps the current theme explicit in a compact, labeled navigation control.",
+      "html": "<button class=\"ds-theme-toggle\" aria-pressed=\"true\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M10.7 2.2a5.8 5.8 0 1 0 3.1 8.6A5 5 0 0 1 10.7 2.2Z\"/></svg>Dark</button>",
+      "css": ".ds-theme-toggle { height: 30px; display: inline-flex; align-items: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); font-family: 'Momentum Sans', sans-serif; font-size: 11px; font-weight: 650; cursor: pointer; } .ds-theme-toggle svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; } .ds-theme-toggle:hover { border-color: var(--line-strong); color: var(--ink); } .ds-theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ledger Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "A flat chapter container separated by graphite rules rather than ambient shadow.",
+      "html": "<section class=\"ds-panel\"><header><h2>Today’s weighted commitments</h2><strong>0%</strong></header><div class=\"ds-panel-body\">Mission status and execution rows belong here.</div></section>",
+      "css": ".ds-panel { overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); color: var(--ink); font-family: 'Momentum Sans', sans-serif; } .ds-panel header { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 19px 22px; border-bottom: 1px solid var(--line); } .ds-panel h2 { margin: 0; font-size: 18px; line-height: 1.2; font-weight: 690; letter-spacing: -.025em; } .ds-panel header strong { font-size: 12px; font-variant-numeric: tabular-nums; } .ds-panel-body { padding: 20px 22px; color: var(--muted); font-size: 12px; line-height: 1.5; }"
+    },
+    {
+      "name": "Weighted Check Row",
+      "kind": "custom",
+      "description": "Records one binary commitment while keeping its goal and point weight visible.",
+      "html": "<label class=\"ds-check-row\"><input type=\"checkbox\"><span class=\"ds-check\">✓</span><span class=\"ds-check-copy\"><strong>Post on LinkedIn</strong><small>Build authority and opportunity</small></span><em>Audience · 15 pts</em></label>",
+      "css": ".ds-check-row { min-height: 74px; display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 11px; border-bottom: 1px solid var(--line); color: var(--ink); font-family: 'Momentum Sans', sans-serif; cursor: pointer; } .ds-check-row:hover { background: var(--surface); } .ds-check-row input { position: absolute; opacity: 0; pointer-events: none; } .ds-check { width: 22px; height: 22px; display: grid; place-items: center; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--paper); color: transparent; font-size: 11px; } .ds-check-row input:checked + .ds-check { border-color: var(--green); background: var(--green); color: var(--signal-ink); } .ds-check-row:has(input:checked) { background: color-mix(in srgb, var(--green-soft) 70%, transparent); } .ds-check-copy strong, .ds-check-copy small { display: block; } .ds-check-copy strong { font-size: 12px; font-weight: 650; } .ds-check-copy small { margin-top: 4px; color: var(--muted); font-size: 11px; } .ds-check-row em { padding: 4px 7px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 11px; font-style: normal; font-weight: 650; } .ds-check-row:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 3px; }"
+    },
+    {
+      "name": "Metric Stepper",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Updates a measured target with generous decrement and increment zones around a tabular input.",
+      "html": "<div class=\"ds-stepper\"><button aria-label=\"Decrease\">−</button><label><input value=\"3\" aria-label=\"Water intake\"><span>L</span></label><button aria-label=\"Increase\">+</button></div>",
+      "css": ".ds-stepper { width: 188px; height: 44px; display: grid; grid-template-columns: 44px minmax(0,1fr) 44px; overflow: hidden; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--paper); color: var(--ink); font-family: 'Momentum Sans', sans-serif; } .ds-stepper button { border: 0; background: var(--surface); color: var(--muted); font-size: 19px; cursor: pointer; } .ds-stepper button:first-child { border-right: 1px solid var(--line); } .ds-stepper button:last-child { border-left: 1px solid var(--line); } .ds-stepper button:hover { background: var(--accent-soft); color: var(--accent); } .ds-stepper button:focus-visible, .ds-stepper label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -2px; } .ds-stepper label { min-width: 0; display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 4px; } .ds-stepper input { min-width: 0; width: 100%; height: 100%; padding-left: 8px; border: 0; outline: 0; background: transparent; color: var(--ink); text-align: right; font-size: 14px; font-weight: 750; font-variant-numeric: tabular-nums; } .ds-stepper span { margin-right: 8px; color: var(--muted); font-size: 11px; font-weight: 650; }"
+    },
+    {
+      "name": "Chart Range",
+      "kind": "chip",
+      "description": "Switches analytical time windows without competing with the chart itself.",
+      "html": "<div class=\"ds-range\" role=\"group\" aria-label=\"Chart range\"><button>14 days</button><button class=\"active\" aria-pressed=\"true\">30 days</button><button>90 days</button></div>",
+      "css": ".ds-range { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); font-family: 'Momentum Sans', sans-serif; } .ds-range button { height: 28px; padding: 0 10px; border: 0; border-radius: 6px; background: transparent; color: var(--muted); font-size: 11px; font-weight: 650; white-space: nowrap; cursor: pointer; } .ds-range button:hover { color: var(--ink); } .ds-range button.active { background: var(--paper); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); } .ds-range button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }"
+    },
+    {
+      "name": "Status Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pairs compact metadata with a semantic state without becoming a decorative badge.",
+      "html": "<span class=\"ds-status-chip\"><i></i>Cloud saved</span>",
+      "css": ".ds-status-chip { min-height: 27px; display: inline-flex; align-items: center; gap: 6px; padding: 0 8px; border: 1px solid color-mix(in srgb, var(--green) 30%, var(--line)); border-radius: 7px; background: var(--green-soft); color: var(--green); font-family: 'Momentum Sans', sans-serif; font-size: 11px; font-weight: 650; white-space: nowrap; } .ds-status-chip i { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Mission Ledger",
+    "overview": "Momentum is a live execution ledger, not a gallery of interchangeable cards. It should feel like a disciplined mission-control surface: dark by default, equally resolved on paper white, compact enough for repeated daily use, and calm enough that incomplete work remains legible without becoming punitive. Graphite rules establish order; coral identifies the live commitment; blue and green report data and completion.\n\nThe interface tells one continuous story: mission status, today’s weighted work, KPI proof, daily trend, weekly comparison, consistency, body evidence, and milestones. Panels are chapters in that ledger rather than self-promoting objects. Controls remain small and operational, while large tabular numerals and the opening statement carry visual authority.",
+    "keyCharacteristics": [
+      "Operational, direct, and evidence-led.",
+      "Dark midnight and paper-white canvases with the same semantic hierarchy.",
+      "Graphite borders and tonal fields instead of decorative depth.",
+      "Coral for live work, green for completion, blue for analytical comparison, and amber for caution or secondary goal data.",
+      "Compact controls, dense ledger rows, and tabular numerals.",
+      "Responsive reflow that preserves the mission-first reading order."
+    ],
+    "rules": [
+      { "name": "The One Signal, One Meaning Rule", "body": "Coral means live or urgent, green means complete or positive, blue means comparative data, and amber means caution or secondary data; never swap those meanings for decoration.", "section": "colors" },
+      { "name": "The Theme Parity Rule", "body": "Dark is the default, but every semantic role must remain equally legible and intentional on paper white; never treat light mode as a simple inversion.", "section": "colors" },
+      { "name": "The Ledger Numeral Rule", "body": "Quantitative values always use tabular figures so updates do not disturb alignment or scan rhythm.", "section": "typography" },
+      { "name": "The One Display Moment Rule", "body": "Reserve the large, tightly tracked display style for the page mission; downstream hierarchy is compact and workmanlike.", "section": "typography" },
+      { "name": "The Story Survives Reflow Rule", "body": "Responsive layout may change columns, density, and scrolling behavior, but it never changes the order from mission status to execution to proof.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Surfaces are separated by tone and 1px rules; never add ambient shadows to make routine panels feel important.", "section": "elevation" },
+      { "name": "The Nested Radius Rule", "body": "Corners become smaller as components move inward: panel, inset field, control, then check or cell. Do not repeat the same large radius at every nesting level.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do lead every screen with current mission status and the next recordable work.",
+      "Do preserve the semantic color contract across light and dark themes.",
+      "Do use graphite rules, shared containers, and tonal insets to expose hierarchy.",
+      "Do use tabular numerals for every changing quantity and pair data color with labels, arrows, icons, or text.",
+      "Do retain visible keyboard focus, semantic progress values, accessible chart names, touch-friendly controls, and reduced-motion behavior.",
+      "Do keep interaction copy direct, specific, and confidence-preserving."
+    ],
+    "donts": [
+      "Don't turn the ledger into a gallery of floating, equally weighted cards.",
+      "Don't add decorative gradients, glowing borders, ambient shadows, glass effects, or effects without information value.",
+      "Don't use coral, green, blue, or amber as arbitrary decoration or as the only carrier of meaning.",
+      "Don't shrink labels below the established 11px floor or compress charts until their axes become unreadable.",
+      "Don't reorder analytics ahead of today’s weighted execution on smaller screens.",
+      "Don't introduce oversized controls, playful badges, or nested rounded containers that dilute the mission-control character."
+    ]
+  }
+}
