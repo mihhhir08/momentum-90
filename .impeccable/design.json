@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-11T02:48:27Z",
+  "generatedAt": "2026-08-12T18:30:00Z",
   "title": "Design System: Momentum",
   "extensions": {
     "colorMeta": {
@@ -58,11 +58,17 @@
         "canonical": "var(--line-strong)",
         "tonalRamp": ["#111821", "#27323d", "#3a4856", "#52606d", "#66717d", "#8e99a5", "#b3bcc5", "#c8d0d8"]
       },
-      "live-coral": {
+      "action-coral": {
         "role": "primary",
-        "displayName": "Live Coral",
+        "displayName": "Action Coral",
         "canonical": "var(--accent)",
         "tonalRamp": ["#42160d", "#6b2417", "#98341f", "#c44a30", "#ef6848", "#ff7657", "#ffab98", "#fff0eb"]
+      },
+      "spark-coral": {
+        "role": "secondary",
+        "displayName": "Spark Coral",
+        "canonical": "#ff5d35",
+        "tonalRamp": ["#42160d", "#6b2417", "#98341f", "#c44a30", "#e65332", "#ff5d35", "#ff9f88", "#fff0eb"]
       },
       "live-coral-soft": {
         "role": "primary",
@@ -114,11 +120,15 @@
       }
     },
     "typographyMeta": {
+      "focus-display": { "displayName": "Focus Display", "purpose": "The approved task name in Focus mode." },
       "display": { "displayName": "Mission Display", "purpose": "The opening mission statement only." },
+      "mission": { "displayName": "Must-Win Mission", "purpose": "The highest-impact commitment inside the plan." },
       "headline": { "displayName": "Ledger Headline", "purpose": "Panel chapter headings." },
       "title": { "displayName": "Operational Title", "purpose": "Brand and inset mission headings." },
       "body": { "displayName": "Evidence Body", "purpose": "Explanations and operational guidance." },
       "label": { "displayName": "Compact Label", "purpose": "Controls, metadata, tags, and chart axes." },
+      "operational": { "displayName": "Operational Mono", "purpose": "Durations, capacity, approval state, and precise metadata." },
+      "editorial": { "displayName": "Editorial Accent", "purpose": "Rare reflective or interpretive notes." },
       "numeric": { "displayName": "Tabular Numeric", "purpose": "Scores, counts, measurements, and KPI values." }
     },
     "shadows": [
@@ -149,11 +159,11 @@
       "css": ".ds-btn-primary { height: 36px; padding: 0 12px; border: 1px solid var(--accent); border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-family: 'Momentum Sans', sans-serif; font-size: 11px; font-weight: 700; cursor: pointer; transition: filter 150ms ease-out; } .ds-btn-primary:hover { filter: brightness(1.06); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; } .ds-btn-primary:active { filter: brightness(.96); }"
     },
     {
-      "name": "Theme Toggle",
-      "kind": "nav",
-      "description": "Keeps the current theme explicit in a compact, labeled navigation control.",
-      "html": "<button class=\"ds-theme-toggle\" aria-pressed=\"true\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M10.7 2.2a5.8 5.8 0 1 0 3.1 8.6A5 5 0 0 1 10.7 2.2Z\"/></svg>Dark</button>",
-      "css": ".ds-theme-toggle { height: 30px; display: inline-flex; align-items: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); font-family: 'Momentum Sans', sans-serif; font-size: 11px; font-weight: 650; cursor: pointer; } .ds-theme-toggle svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; } .ds-theme-toggle:hover { border-color: var(--line-strong); color: var(--ink); } .ds-theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }"
+      "name": "Plan Approval",
+      "kind": "custom",
+      "description": "Makes capacity and allocation explicit, then gates Focus behind a deliberate commitment.",
+      "html": "<section class=\"ds-plan\"><strong>Your proposed focus plan</strong><span>3h capacity</span><button>Commit to this plan</button></section>",
+      "css": ".ds-plan { display: grid; gap: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); color: var(--ink); padding: 22px; font-family: 'Momentum Sans', sans-serif; } .ds-plan span { color: var(--blue); font-family: 'Momentum Mono', monospace; } .ds-plan button { min-height: 42px; border: 0; border-radius: 9px; background: var(--accent); color: var(--accent-ink); font-weight: 750; }"
     },
     {
       "name": "Ledger Panel",
@@ -195,11 +205,12 @@
     }
   ],
   "narrative": {
-    "northStar": "The Mission Ledger",
-    "overview": "Momentum is a live execution ledger, not a gallery of interchangeable cards. It should feel like a disciplined mission-control surface: dark by default, equally resolved on paper white, compact enough for repeated daily use, and calm enough that incomplete work remains legible without becoming punitive. Graphite rules establish order; coral identifies the live commitment; blue and green report data and completion.\n\nThe interface tells one continuous story: mission status, today’s weighted work, KPI proof, daily trend, weekly comparison, consistency, body evidence, and milestones. Panels are chapters in that ledger rather than self-promoting objects. Controls remain small and operational, while large tabular numerals and the opening statement carry visual authority.",
+    "northStar": "The Personal Mission Ledger",
+    "overview": "Momentum is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It protects the existing goals, scoring, history, and evidence while making each day begin with a realistic plan: propose at least three hours of focus capacity, let the user adjust allocations, require explicit commitment, and only then open Focus.\n\nThe visual world is a single deep-neutral dark ledger. Graphite rules and four near-black surface levels create order; coral identifies action; blue reports planned capacity and analytical comparison; green confirms completion. Focus removes surrounding analytics without introducing a timer, then returns the user to the approved plan and its plan-fit reflection.",
     "keyCharacteristics": [
-      "Operational, direct, and evidence-led.",
-      "Dark midnight and paper-white canvases with the same semantic hierarchy.",
+      "Personal-only, operational, direct, and evidence-led.",
+      "One deep-neutral dark canvas with no theme switch or off-white surface.",
+      "Plan before execution: adjust, explicitly approve, enter Focus, then reflect on fit.",
       "Graphite borders and tonal fields instead of decorative depth.",
       "Coral for live work, green for completion, blue for analytical comparison, and amber for caution or secondary goal data.",
       "Compact controls, dense ledger rows, and tabular numerals.",
@@ -207,7 +218,8 @@
     ],
     "rules": [
       { "name": "The One Signal, One Meaning Rule", "body": "Coral means live or urgent, green means complete or positive, blue means comparative data, and amber means caution or secondary data; never swap those meanings for decoration.", "section": "colors" },
-      { "name": "The Theme Parity Rule", "body": "Dark is the default, but every semantic role must remain equally legible and intentional on paper white; never treat light mode as a simple inversion.", "section": "colors" },
+      { "name": "The Single-Night Rule", "body": "Momentum has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.", "section": "colors" },
+      { "name": "The Approval Gate Rule", "body": "Focus entry is absent until the current allocation fits capacity and the user explicitly commits to the plan.", "section": "layout" },
       { "name": "The Ledger Numeral Rule", "body": "Quantitative values always use tabular figures so updates do not disturb alignment or scan rhythm.", "section": "typography" },
       { "name": "The One Display Moment Rule", "body": "Reserve the large, tightly tracked display style for the page mission; downstream hierarchy is compact and workmanlike.", "section": "typography" },
       { "name": "The Story Survives Reflow Rule", "body": "Responsive layout may change columns, density, and scrolling behavior, but it never changes the order from mission status to execution to proof.", "section": "layout" },
@@ -215,8 +227,8 @@
       { "name": "The Nested Radius Rule", "body": "Corners become smaller as components move inward: panel, inset field, control, then check or cell. Do not repeat the same large radius at every nesting level.", "section": "shapes" }
     ],
     "dos": [
-      "Do lead every screen with current mission status and the next recordable work.",
-      "Do preserve the semantic color contract across light and dark themes.",
+      "Do lead every day with a realistic proposed plan and one explicit commit action.",
+      "Do preserve the single deep-dark semantic color contract.",
       "Do use graphite rules, shared containers, and tonal insets to expose hierarchy.",
       "Do use tabular numerals for every changing quantity and pair data color with labels, arrows, icons, or text.",
       "Do retain visible keyboard focus, semantic progress values, accessible chart names, touch-friendly controls, and reduced-motion behavior.",
@@ -227,7 +239,8 @@
       "Don't add decorative gradients, glowing borders, ambient shadows, glass effects, or effects without information value.",
       "Don't use coral, green, blue, or amber as arbitrary decoration or as the only carrier of meaning.",
       "Don't shrink labels below the established 11px floor or compress charts until their axes become unreadable.",
-      "Don't reorder analytics ahead of today’s weighted execution on smaller screens.",
+      "Don't allow Focus before plan approval or add a timer to Focus mode.",
+      "Don't reorder analytics ahead of today’s plan and weighted execution on smaller screens.",
       "Don't introduce oversized controls, playful badges, or nested rounded containers that dilute the mission-control character."
     ]
   }

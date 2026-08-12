@@ -8,7 +8,7 @@ web
 
 ## Users
 
-The primary user is a person running a focused 90-day transformation challenge. They use the dashboard daily to execute high-priority commitments and weekly to review progress across audience growth, career, body recomposition, and hair health. The product is currently personal but is intended to become freely available to other users through individual signed-in workspaces.
+The user is running a focused 90-day transformation challenge. They use the dashboard daily to execute high-priority commitments and weekly to review progress across audience growth, career, body recomposition, and hair health. The current product is deliberately personal; making it configurable for a wider audience is outside this version's scope.
 
 ## Product Purpose
 
@@ -30,14 +30,17 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Multi-series progress chart, weekly comparison, consistency heatmap, weekly review, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
 - Supabase passwordless email sign-in, cloud-synced logs, and private photo storage with local-storage fallback.
 - Existing scoring rules, saved history, cloud schema, and data migration behavior must remain compatible through redesigns.
-- The interface must remain responsive, keyboard accessible, and usable in both dark and light themes.
+- A proposed daily focus plan uses a minimum three-hour capacity, lets the user adjust allocations, requires explicit approval, and records whether the plan fit the day.
+- Focus mode removes surrounding analytics but does not include a timer.
+- The interface must remain responsive, keyboard accessible, and legible in its single deep-dark theme.
 
 ## Brand Commitments
 
 - Product name: Momentum.
 - Voice: direct, accountable, specific, and confidence-preserving; never saccharine or needlessly punitive.
 - Today's execution is the primary experience; analytics support action rather than displacing it.
-- Dark mode is the default, with an equally premium light mode.
+- A deep, neutral dark canvas is the sole theme; off-white surfaces and a theme switch are intentionally excluded.
+- Typography should distinguish mission, instruction, and operational data without becoming decorative or monotonous.
 - The analytical restraint and legibility of DataFast are a binding quality reference.
 - Avoid generic AI-generated interface tells: decorative gradients, glowing borders, nested-card clutter, arbitrary color, tiny text, and effects without information value.
 
@@ -57,4 +60,4 @@ The dashboard is checked throughout the day to update binary commitments and mea
 
 ## Accessibility & Inclusion
 
-The dashboard must preserve readable type, sufficient contrast in both themes, visible keyboard focus, semantic controls, touch-friendly targets, reduced-motion support, and meaning that does not rely on color alone.
+The dashboard must preserve readable type, sufficient contrast, visible keyboard focus, semantic controls, touch-friendly targets, reduced-motion support, and meaning that does not rely on color alone.
