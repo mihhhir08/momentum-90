@@ -151,6 +151,13 @@
   },
   "components": [
     {
+      "name": "Momentum Mark",
+      "kind": "custom",
+      "description": "A continuous coral rise that identifies Momentum in product chrome and app-icon contexts.",
+      "html": "<span class=\"ds-brand-mark\"><img src=\"/momentum-logo.png\" alt=\"\"></span>",
+      "css": ".ds-brand-mark { width: 30px; height: 30px; display: grid; place-items: center; } .ds-brand-mark img { width: 36px; height: 36px; max-width: none; object-fit: contain; }"
+    },
+    {
       "name": "Primary Action",
       "kind": "button",
       "refersTo": "button-primary",
@@ -211,6 +218,7 @@
       "Personal-only, operational, direct, and evidence-led.",
       "One deep-neutral dark canvas with no theme switch or off-white surface.",
       "Plan before execution: adjust, explicitly approve, enter Focus, then reflect on fit.",
+      "A continuous coral rise mark identifies Momentum at product-chrome and app-icon scale.",
       "Graphite borders and tonal fields instead of decorative depth.",
       "Coral for live work, green for completion, blue for analytical comparison, and amber for caution or secondary goal data.",
       "Compact controls, dense ledger rows, and tabular numerals.",

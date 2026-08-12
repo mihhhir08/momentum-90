@@ -143,6 +143,7 @@ The visual world is a single deep-neutral dark ledger. Graphite rules and four n
 - Graphite rules and tonal layers instead of floating-card depth.
 - Coral for action, blue for capacity and data, green for completion, and amber for caution.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
+- A continuous coral rise mark identifies Momentum at product-chrome and app-icon scale.
 - No timer, gamified urgency, or productivity theater in Focus.
 
 ## Colors
@@ -239,6 +240,8 @@ Momentum is flat by default and uses no ambient panel shadow. Depth comes from t
 ## Shapes
 
 The radius ramp is compact and nested: heatmap cells use 3px; checks 6px; reflection choices and compact controls 7px; allocation controls 8px; action buttons and sign-in fields 9px; steppers 10px; inset evidence 12px; challenge status 14px; the shared KPI ledger 15px; and primary panels 16px, reducing to 13px on the narrowest viewport. Pills and progress tracks are fully rounded. Score rings and milestone markers are circular. Dashed strokes are reserved for editable or not-yet-provided evidence.
+
+The Momentum mark is one uninterrupted rising coral path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never place it inside a decorative tile or add shadow, glow, text, or a gradient.
 
 **The Nested Radius Rule.** Radius decreases as components move inward: panel, inset, control, then check or cell. Do not repeat large rounded rectangles at every level.
 
