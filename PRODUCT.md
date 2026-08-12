@@ -30,8 +30,6 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Multi-series progress chart, weekly comparison, consistency heatmap, weekly review, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
 - Supabase passwordless email sign-in, cloud-synced logs, and private photo storage with local-storage fallback.
 - Existing scoring rules, saved history, cloud schema, and data migration behavior must remain compatible through redesigns.
-- A proposed daily focus plan uses a minimum three-hour capacity, lets the user adjust allocations, requires explicit approval, and records whether the plan fit the day.
-- Focus mode removes surrounding analytics but does not include a timer.
 - The interface must remain responsive, keyboard accessible, and legible in its single deep-dark theme.
 
 ## Brand Commitments
