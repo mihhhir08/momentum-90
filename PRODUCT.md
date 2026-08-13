@@ -29,6 +29,7 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Daily X volume, LinkedIn and optional Instagram publishing, job applications until employment, career-growth work, clean food, protein, strength or planned recovery, steps, water, and scalp massage.
 - Multi-series progress chart, weekly comparison, consistency heatmap, evidence-based weekly course correction, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
 - A persistent nine-sector command rail, full signal inspector, and Cmd/Ctrl+K console for rapid navigation, analysis, date inspection, and weight logging.
+- A fast every-load initialization sequence that truthfully reports authentication, cloud sync, local fallback, mission data, today’s record state, score, level, and evidence-backed context before returning control.
 - Truthful record semantics: unlogged days are unknown, open days remain provisional, closed days become evidence, and recovery or milestone states remain visually distinct.
 - An operational dossier that remains visible throughout the challenge and resolves into the final 90-day record instead of appearing only after completion.
 - Incomplete high-priority commitments surface factual proof from the user's own prior completions when that proof exists; the system never invents or stores identity claims.

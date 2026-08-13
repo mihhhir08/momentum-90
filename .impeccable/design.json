@@ -9,6 +9,7 @@
       "ink": { "role": "neutral", "displayName": "Primary Readout", "canonical": "#edf8ff", "tonalRamp": ["#526d7e", "#89a6b8", "#abdfff", "#edf8ff"] },
       "steel-blue": { "role": "primary", "displayName": "Phosphor Blue", "canonical": "#78ddeb", "tonalRamp": ["#0a2930", "#367985", "#78ddeb", "#abdfff"] },
       "success-green": { "role": "secondary", "displayName": "Evidence Green", "canonical": "#68b99b", "tonalRamp": ["#0c251f", "#2f6e59", "#68b99b", "#b9e3d4"] },
+      "warning-amber": { "role": "tertiary", "displayName": "Degraded State Amber", "canonical": "#c7a66b", "tonalRamp": ["#2a2112", "#705b32", "#c7a66b", "#ead7ad"] },
       "danger-red": { "role": "tertiary", "displayName": "Deviation Red", "canonical": "#d36d71", "tonalRamp": ["#32161a", "#7b343a", "#d36d71", "#f3b9bc"] }
     },
     "typographyMeta": {
@@ -23,7 +24,8 @@
     ],
     "motion": [
       { "name": "data-entry", "value": "500ms cubic-bezier(.16,1,.3,1)", "purpose": "Reveals changed chart data." },
-      { "name": "boot-scan", "value": "3600ms linear", "purpose": "Runs the one session diagnostic sweep." },
+      { "name": "boot-scan", "value": "340ms linear", "purpose": "Passes once across the command emblem during every genuine initialization." },
+      { "name": "system-wake", "value": "1200ms staged", "purpose": "Resolves real system state and transforms shared mission readouts into the operating interface." },
       { "name": "cell-inspection", "value": "160ms ease", "purpose": "Confirms evidence selection." }
     ],
     "breakpoints": [

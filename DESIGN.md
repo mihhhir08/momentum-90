@@ -19,6 +19,7 @@ colors:
   telemetry-blue: "#abdfff"
   telemetry-blue-soft: "#102735"
   hair-neutral: "#8e9da7"
+  warning-amber: "#c7a66b"
   danger-red: "#d36d71"
 typography:
   display:
@@ -110,7 +111,7 @@ The first operational viewport is a continuous command deck, not a card gallery.
 - Cold steel blue for action, focus, and telemetry; green for completion; red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
 - An original steel-blue winged command mark identifies BATCOMPUTER at product-chrome and app-icon scale; no third-party Batman artwork is embedded.
-- One dismissible four-second secure-terminal diagnostic runs once per browser session and respects reduced-motion settings.
+- Every genuine page initialization runs a truthful 1.2-second system wake sequence; it never replays for internal navigation or tab focus, supports immediate keyboard bypass once data is safe, and uses a reduced-motion alternative.
 - Daily records can be intentionally closed; missing, open, and closed days remain distinct in the evidence model.
 - Every heatmap cell opens a compact mission record without adding a navigation layer.
 - The mission chart gives the overall trajectory highest contrast, keeps supporting systems secondary, and annotates the target band, mission milestones, and planned recovery without adding extra chart modes.
@@ -131,6 +132,7 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Tertiary
 
+- **Warning Amber** (`#c7a66b`): Degraded cloud state and recoverable system warnings.
 - **Danger Red** (`#d36d71`): Negative deltas, course deviation, and blocking errors only.
 
 ### Neutral
@@ -189,6 +191,8 @@ At 1080px the command rail disappears, wider dashboard chapters collapse to one 
 ## Elevation & Depth
 
 BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes from the four neutral surface levels, one-pixel gunmetal rules, inset scan fields, clipped command modules, and occasional one-pixel inner strokes. Restrained phosphor bloom is reserved for live signal traces and the original mark. The heatmap inspection ring and field-focus halo are functional exceptions. Data entry animation is brief and removed under reduced-motion preferences.
+
+The boot sequence is the single authored motion moment: the original emblem wakes under one scan, real system checks resolve, the remaining mission window gains priority, and those shared readouts disperse toward their dashboard regions as control is returned. It begins immediately alongside real initialization and never claims cloud verification or authentication before the application confirms it.
 
 ### Shadow Vocabulary
 
