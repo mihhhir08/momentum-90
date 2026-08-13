@@ -39,7 +39,7 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Voice: direct, accountable, specific, and confidence-preserving; never saccharine or needlessly punitive.
 - Today's execution is the primary experience; analytics support action rather than displacing it.
 - A near-black tactical command canvas is the sole theme; off-white surfaces and a theme switch are intentionally excluded.
-- The visual direction is a Nolan-era Batcave operations terminal: original angular bat emblem, true-black surfaces, gunmetal structure, cold steel-blue focus, forensic telemetry, and industrial command language. Do not copy a specific film or comic emblem.
+- The visual direction is an original Arkham-inspired Batcomputer evidence network: original winged command mark, true-black scan fields, asymmetric rails, cold blue phosphor focus, forensic telemetry, and industrial command language. Do not copy a specific game, film, or comic emblem or interface asset.
 - Typography should distinguish mission, instruction, and operational data without becoming decorative or monotonous.
 - The analytical restraint and legibility of DataFast are a binding quality reference.
 - Avoid generic AI-generated interface tells: decorative gradients, glowing borders, nested-card clutter, arbitrary color, tiny text, and effects without information value.

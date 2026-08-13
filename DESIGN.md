@@ -1,38 +1,38 @@
 ---
 name: BATCOMPUTER
-description: A private Batcave mission-control interface that turns a fixed 90-day challenge into direct execution, evidence, and course correction.
+description: An Arkham-inspired evidence network for a private 90-day mission.
 colors:
-  canvas: "#03070a"
-  paper: "#081018"
-  surface: "#0d1821"
-  surface-strong: "#142431"
-  ink: "#eaf2f7"
-  muted: "#94a8b5"
-  faint: "#5f7482"
-  line: "#1b3443"
-  line-strong: "#31576d"
-  steel-blue: "#78bde6"
-  steel-blue-soft: "#0c2637"
+  canvas: "#010509"
+  paper: "#061019"
+  surface: "#0a1721"
+  surface-strong: "#102431"
+  ink: "#edf8ff"
+  muted: "#89a6b8"
+  faint: "#526d7e"
+  line: "#173244"
+  line-strong: "#28536c"
+  steel-blue: "#61c5ff"
+  steel-blue-soft: "#07283b"
   action-ink: "#041016"
   success-green: "#68b99b"
   success-green-soft: "#0c251f"
-  telemetry-blue: "#9fc8df"
+  telemetry-blue: "#abdfff"
   telemetry-blue-soft: "#102735"
   hair-neutral: "#8e9da7"
   danger-red: "#d36d71"
 typography:
   display:
     fontFamily: "Momentum Sans, sans-serif"
-    fontSize: "clamp(30px, 4vw, 48px)"
-    fontWeight: 720
-    lineHeight: 1.03
-    letterSpacing: "-0.04em"
+    fontSize: "clamp(38px, 5.3vw, 72px)"
+    fontWeight: 760
+    lineHeight: 0.82
+    letterSpacing: "-0.055em"
   headline:
     fontFamily: "Momentum Sans, sans-serif"
-    fontSize: "18px"
-    fontWeight: 690
+    fontSize: "17px"
+    fontWeight: 720
     lineHeight: 1.2
-    letterSpacing: "-0.025em"
+    letterSpacing: "0.095em"
   body:
     fontFamily: "Momentum Sans, sans-serif"
     fontSize: "12px"
@@ -93,23 +93,23 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Batcave Forensic Command Array"**
+**Creative North Star: "The Arkham Evidence Network"**
 
 BATCOMPUTER is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
-The visual world is an immersive but operational Nolan-era Batcave command array: true-black tactical surfaces, cold steel-blue controls and telemetry, compact mono instrumentation, clipped industrial geometry, and an original angular bat emblem. It should feel as though Batman uses it to review a mission, not like a generic dashboard wearing a superhero skin. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
+The visual world is an original tactical evidence network inspired by the density, precision, and cinematic focus of Arkham-era Batcomputer interfaces: true-black scan fields, cold blue phosphor signals, compact mono instrumentation, asymmetric command rails, selection brackets, and an original winged command emblem. It should feel like a coherent forensic operating system, not a conventional dashboard wearing superhero decoration. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
 
-The first operational viewport is a command deck, not a card gallery. The mission queue owns the wide channel; a connected telemetry rail carries weekly score, career output, publishing output, and contextual evidence for whichever task is selected. The main trajectory chart follows as the review surface, and the weekly assistant reads like a numbered case file: observation, deviation, directive.
+The first operational viewport is a continuous command deck, not a card gallery. A command mast establishes mission status; the mission queue owns the wide dossier channel; and a connected instrument rail carries weekly score, career output, publishing output, and contextual evidence for whichever task is selected. The trajectory chart becomes a scan field, weekly comparison becomes a variance console, and the assistant reads like a case file: observation, deviation, directive.
 
 **Key Characteristics:**
 
 - Personal-only, private, and specific to the August 7 challenge.
 - Direct execution: today’s weighted commitments appear before supporting analytics.
 - A single deep-neutral dark theme with no theme switch or off-white surface.
-- Graphite-blue rules and tonal layers instead of floating-card depth.
+- Graphite-blue rules, connective rails, and section-specific instrument framing instead of repeated cards.
 - Cold steel blue for action, focus, and telemetry; green for completion; red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
-- An original steel-blue angular bat mark identifies BATCOMPUTER at product-chrome and app-icon scale.
+- An original steel-blue winged command mark identifies BATCOMPUTER at product-chrome and app-icon scale; no third-party Batman artwork is embedded.
 - One dismissible four-second secure-terminal diagnostic runs once per browser session and respects reduced-motion settings.
 - Daily records can be intentionally closed; missing, open, and closed days remain distinct in the evidence model.
 - Every heatmap cell opens a compact mission record without adding a navigation layer.
@@ -122,12 +122,12 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Primary
 
-- **Cold Steel Blue** (`#78bde6`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
+- **Phosphor Blue** (`#61c5ff`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
 
 ### Secondary
 
 - **Success Green** (`#68b99b`): Checked commitments, positive deltas, saved state, and completed controls.
-- **Telemetry Blue** (`#9fc8df`): Supporting chart lines, XP, comparative analysis, and live system labels. Its reduced contrast keeps the primary trajectory dominant.
+- **Telemetry Blue** (`#abdfff`): Supporting chart lines, XP, comparative analysis, and live system labels. Its reduced contrast keeps the primary trajectory dominant.
 
 ### Tertiary
 
@@ -135,13 +135,13 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Neutral
 
-- **Canvas** (`#03070a`): The application ground.
-- **Command Paper** (`#081018`): Primary panels and contained chapters.
-- **Inset Surface** (`#0d1821`): Controls, chart fields, and row hover.
-- **Strong Inset Surface** (`#142431`): Progress tracks, stronger control hover, and deeper subdivisions.
-- **Primary Ink** (`#eaf2f7`): Mission language, headings, and primary values.
-- **Muted Ink** (`#94a8b5`) and **Faint Ink** (`#5f7482`): Supporting explanation and low-emphasis operational metadata.
-- **Gunmetal Rule** (`#1b3443`) and **Strong Gunmetal Rule** (`#31576d`): One-pixel structure and interactive boundaries.
+- **Canvas** (`#010509`): The application ground.
+- **Command Paper** (`#061019`): Primary panels and contained chapters.
+- **Inset Surface** (`#0a1721`): Controls, chart fields, and row hover.
+- **Strong Inset Surface** (`#102431`): Progress tracks, stronger control hover, and deeper subdivisions.
+- **Primary Ink** (`#edf8ff`): Mission language, headings, and primary values.
+- **Muted Ink** (`#89a6b8`) and **Faint Ink** (`#526d7e`): Supporting explanation and low-emphasis operational metadata.
+- **Gunmetal Rule** (`#173244`) and **Strong Gunmetal Rule** (`#28536c`): One-pixel structure and interactive boundaries.
 
 ### Named Rules
 
@@ -180,7 +180,7 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ## Layout
 
-The application uses a centered fluid container capped at 1380px with 34px top spacing and horizontal gutters that scale from 22px to 56px. A 16px dashboard gap and one-pixel rules create the ledger rhythm. The first viewport moves from private brand and challenge status directly into today’s weighted commitments. KPI and analytical proof follow; they never displace daily execution.
+The application uses a centered fluid container capped at 1520px with an asymmetric left command rail and horizontal gutters that scale from 24px to 92px. A 12px dashboard gap and one-pixel rules create the instrument rhythm. The first viewport moves from the command mast and challenge status directly into today’s weighted commitments beside the connected live-instrument rail. Analytical proof follows; it never displaces daily execution.
 
 At 1080px the wider dashboard chapters collapse to one column and weekly comparisons become two-by-two. At 760px content gutters reduce to 14px, task groups stack, the heatmap changes from 30 to 15 columns, and body metrics become two columns. At 480px the header stacks, the private label hides, task controls expand to the available width, and wide charts retain a 720px analytical canvas inside horizontal overflow.
 
@@ -188,7 +188,7 @@ At 1080px the wider dashboard chapters collapse to one column and weekly compari
 
 ## Elevation & Depth
 
-BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes from the four neutral surface levels, one-pixel gunmetal rules, inset fields, clipped command modules, and occasional one-pixel inner strokes. The heatmap inspection ring and field-focus halo are functional exceptions, not decorative elevation. Data entry animation is brief and removed under reduced-motion preferences.
+BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes from the four neutral surface levels, one-pixel gunmetal rules, inset scan fields, clipped command modules, and occasional one-pixel inner strokes. Restrained phosphor bloom is reserved for live signal traces and the original mark. The heatmap inspection ring and field-focus halo are functional exceptions. Data entry animation is brief and removed under reduced-motion preferences.
 
 ### Shadow Vocabulary
 
@@ -198,13 +198,13 @@ BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes fro
 
 ### Named Rules
 
-**The Flat-by-Default Rule.** Tonal separation and rules establish hierarchy; never add ambient shadows, glow, glass, or blur to manufacture importance.
+**The Flat-by-Default Rule.** Tonal separation and rules establish hierarchy; never add ambient shadows, glass, or blur to manufacture importance. Signal glow belongs only to active phosphor traces and focus evidence.
 
 ## Shapes
 
 Primary panels, inputs, checks, and compact controls use a disciplined 1–2px radius. Major command surfaces clip one top-right corner, with an occasional bottom-left cut on standalone modules. Progress tracks, heatmap cells, chart keys, and telemetry tags are rectilinear. Circular geometry is reserved for status dots and milestone markers. Dashed strokes remain reserved for editable or not-yet-provided evidence.
 
-The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from crisp geometry in cold steel blue with three black tactical cuts. Preserve its wide silhouette, transparent ground, generous clear space, and hard points; never replace it with a copied film/comic emblem or add an oval, shadow, glow, text, or decorative gradient.
+The BATCOMPUTER mark is an original symmetrical winged command glyph drawn from an outlined chevron, central spine, and angular signal wings in phosphor blue. Preserve its wide silhouette, transparent ground, generous clear space, and hard points; never replace it with a copied game, film, or comic emblem or add an oval or decorative gradient.
 
 **The Tactical Geometry Rule.** Use clipped corners only on primary command surfaces and keep inner controls rectilinear. Repeating cut corners at every nested level creates visual noise.
 
