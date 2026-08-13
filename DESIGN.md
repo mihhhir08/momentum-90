@@ -11,14 +11,14 @@ colors:
   faint: "#697276"
   line: "#273036"
   line-strong: "#3c4a51"
-  signal-yellow: "#ffd43b"
-  signal-yellow-soft: "#2a250c"
+  steel-blue: "#78bde6"
+  steel-blue-soft: "#0c2637"
   action-ink: "#090a08"
-  success-green: "#70d49b"
+  success-green: "#68b99b"
   success-green-soft: "#10261a"
-  telemetry-blue: "#8bb9d0"
+  telemetry-blue: "#9fc8df"
   telemetry-blue-soft: "#13232b"
-  hair-bronze: "#c7a96b"
+  hair-neutral: "#8e9da7"
   danger-red: "#ff776d"
 typography:
   display:
@@ -69,7 +69,7 @@ spacing:
   shell-top: "34px"
 components:
   button-primary:
-    backgroundColor: "{colors.signal-yellow}"
+    backgroundColor: "{colors.steel-blue}"
     textColor: "{colors.action-ink}"
     typography: "{typography.body}"
     rounded: "{rounded.tactical}"
@@ -97,7 +97,9 @@ components:
 
 BATCOMPUTER is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
-The visual world is an immersive but operational Batcave command array: true-black tactical surfaces, sharp signal-yellow controls, desaturated steel-blue telemetry, compact mono instrumentation, clipped industrial geometry, and an original angular bat emblem. It should feel as though Batman uses it to review a mission, not like a generic dashboard wearing a superhero skin. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
+The visual world is an immersive but operational Nolan-era Batcave command array: true-black tactical surfaces, cold steel-blue controls and telemetry, compact mono instrumentation, clipped industrial geometry, and an original angular bat emblem. It should feel as though Batman uses it to review a mission, not like a generic dashboard wearing a superhero skin. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
+
+The first operational viewport is a command deck, not a card gallery. The mission queue owns the wide channel; a connected telemetry rail carries weekly score, career output, publishing output, and contextual evidence for whichever task is selected. The main trajectory chart follows as the review surface, and the weekly assistant reads like a numbered case file: observation, deviation, directive.
 
 **Key Characteristics:**
 
@@ -105,23 +107,25 @@ The visual world is an immersive but operational Batcave command array: true-bla
 - Direct execution: today’s weighted commitments appear before supporting analytics.
 - A single deep-neutral dark theme with no theme switch or off-white surface.
 - Graphite-blue rules and tonal layers instead of floating-card depth.
-- Signal yellow for action and system focus, steel blue for telemetry, green for completion, and red only for negative deviation or error.
+- Cold steel blue for action, focus, and telemetry; green for completion; red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
-- An original signal-yellow angular bat mark identifies BATCOMPUTER at product-chrome and app-icon scale.
+- An original steel-blue angular bat mark identifies BATCOMPUTER at product-chrome and app-icon scale.
+- One restrained scan-line boot sequence runs only on the first load of each day and respects reduced-motion settings.
+- The mission chart gives the overall trajectory highest contrast, keeps supporting systems secondary, and annotates the target band, mission milestones, and planned recovery without adding extra chart modes.
 - No planning ceremony, timers, or productivity theater between the user and daily logging.
 
 ## Colors
 
-The palette is deliberately narrow: four neutral black and gunmetal surfaces carry the product, signal yellow carries action, and desaturated telemetry colors retain stable meanings.
+The palette is deliberately narrow: four neutral black and gunmetal surfaces carry the product, cold steel blue carries action and analysis, and restrained status colors retain stable meanings.
 
 ### Primary
 
-- **Signal Yellow** (`#ffd43b`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
+- **Cold Steel Blue** (`#78bde6`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
 
 ### Secondary
 
-- **Success Green** (`#70d49b`): Checked commitments, positive deltas, saved state, and completed controls.
-- **Telemetry Blue** (`#8bb9d0`): Charts, XP, comparative analysis, and live system labels. Its reduced chroma keeps signal yellow dominant.
+- **Success Green** (`#68b99b`): Checked commitments, positive deltas, saved state, and completed controls.
+- **Telemetry Blue** (`#9fc8df`): Supporting chart lines, XP, comparative analysis, and live system labels. Its reduced contrast keeps the primary trajectory dominant.
 
 ### Tertiary
 
@@ -198,7 +202,7 @@ BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes fro
 
 Primary panels, inputs, checks, and compact controls use a disciplined 1–2px radius. Major command surfaces clip one top-right corner, with an occasional bottom-left cut on standalone modules. Progress tracks, heatmap cells, chart keys, and telemetry tags are rectilinear. Circular geometry is reserved for status dots and milestone markers. Dashed strokes remain reserved for editable or not-yet-provided evidence.
 
-The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from crisp geometry in signal yellow with three black tactical cuts. Preserve its wide silhouette, transparent ground, generous clear space, and hard points; never replace it with a copied film/comic emblem or add an oval, shadow, glow, text, or decorative gradient.
+The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from crisp geometry in cold steel blue with three black tactical cuts. Preserve its wide silhouette, transparent ground, generous clear space, and hard points; never replace it with a copied film/comic emblem or add an oval, shadow, glow, text, or decorative gradient.
 
 **The Tactical Geometry Rule.** Use clipped corners only on primary command surfaces and keep inner controls rectilinear. Repeating cut corners at every nested level creates visual noise.
 
@@ -207,8 +211,8 @@ The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from cr
 ### Buttons
 
 - **Shape:** Primary actions are 42–44px tall; compact controls are 32px tall; both use a 2px radius.
-- **Primary:** Signal Yellow with dark Action Ink and compact uppercase Momentum Mono. Use it for consequential actions and explicit course corrections.
-- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px signal-yellow outline with 3px offset. Disabled controls retain their labels, reduce opacity, and remove the active cursor.
+- **Primary:** Cold Steel Blue with dark Action Ink and compact uppercase Momentum Mono. Use it for consequential actions and explicit course corrections.
+- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px steel-blue outline with 3px offset. Disabled controls retain their labels, reduce opacity, and remove the active cursor.
 - **Secondary:** Restore, reopen, and footer actions are text-led and quiet.
 
 ### Chips
@@ -227,7 +231,7 @@ The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from cr
 ### Inputs / Fields
 
 - **Style:** Measured targets use 44px steppers with 44px controls, right-aligned tabular inputs, and explicit units.
-- **Focus:** Signal-yellow outline for general keyboard focus; text entry may use a steel-blue border and restrained steel-blue halo.
+- **Focus:** Steel-blue outline for general keyboard focus; text entry uses the same border and restrained halo.
 - **Error / Disabled:** Invalid or unavailable actions name the problem where applicable. Disabled decrement controls use reduced opacity.
 
 ### Navigation
