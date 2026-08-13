@@ -2,24 +2,24 @@
 name: Momentum
 description: A grounded tactical command interface that turns a fixed 90-day challenge into direct daily execution, evidence, and course correction.
 colors:
-  canvas: "#020609"
-  paper: "#071017"
-  surface: "#0b1720"
-  surface-strong: "#10232e"
-  ink: "#dcecf4"
-  muted: "#8299a7"
-  faint: "#536b79"
-  line: "#17313e"
-  line-strong: "#285063"
-  action-amber: "#f0b35a"
-  action-amber-soft: "#241b0c"
-  action-ink: "#020609"
-  success-green: "#63d6a0"
-  success-green-soft: "#0a281d"
-  telemetry-blue: "#55c7ff"
-  telemetry-blue-soft: "#082130"
-  body-blue: "#4e8dff"
-  danger-red: "#ff6e62"
+  canvas: "#050607"
+  paper: "#0d1012"
+  surface: "#13171a"
+  surface-strong: "#1a2024"
+  ink: "#f1f1e9"
+  muted: "#9ca4a7"
+  faint: "#697276"
+  line: "#273036"
+  line-strong: "#3c4a51"
+  signal-yellow: "#ffd43b"
+  signal-yellow-soft: "#2a250c"
+  action-ink: "#090a08"
+  success-green: "#70d49b"
+  success-green-soft: "#10261a"
+  telemetry-blue: "#8bb9d0"
+  telemetry-blue-soft: "#13232b"
+  hair-bronze: "#c7a96b"
+  danger-red: "#ff776d"
 typography:
   display:
     fontFamily: "Momentum Sans, sans-serif"
@@ -69,7 +69,7 @@ spacing:
   shell-top: "34px"
 components:
   button-primary:
-    backgroundColor: "{colors.action-amber}"
+    backgroundColor: "{colors.signal-yellow}"
     textColor: "{colors.action-ink}"
     typography: "{typography.body}"
     rounded: "{rounded.tactical}"
@@ -97,7 +97,7 @@ components:
 
 Momentum is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
-The visual world is a grounded, cinematic command system: near-black tactical surfaces, cold-blue telemetry, restrained amber controls, compact mono instrumentation, and clipped corners borrowed from serious industrial hardware. It evokes the focus of a Batcomputer without licensed character art, comic-book ornament, noisy sci-fi chrome, or decorative glow. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
+The visual world is a grounded, cinematic command system: true-black tactical surfaces, sharp signal-yellow controls, desaturated steel-blue telemetry, compact mono instrumentation, and clipped corners borrowed from serious industrial hardware. It evokes the focus of a Batcomputer without licensed character art, comic-book ornament, noisy sci-fi chrome, or decorative glow. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
 
 **Key Characteristics:**
 
@@ -105,45 +105,45 @@ The visual world is a grounded, cinematic command system: near-black tactical su
 - Direct execution: today’s weighted commitments appear before supporting analytics.
 - A single deep-neutral dark theme with no theme switch or off-white surface.
 - Graphite-blue rules and tonal layers instead of floating-card depth.
-- Amber for action, cyan for telemetry, green for completion, and red only for negative deviation or error.
+- Signal yellow for action and system focus, steel blue for telemetry, green for completion, and red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
-- A compact amber rise mark identifies Momentum at product-chrome and app-icon scale.
+- A compact signal-yellow rise mark identifies Momentum at product-chrome and app-icon scale.
 - No planning ceremony, timers, or productivity theater between the user and daily logging.
 
 ## Colors
 
-The palette is deliberately narrow: four near-black neutrals carry the product, amber carries action, and telemetry colors retain stable meanings.
+The palette is deliberately narrow: four neutral black and gunmetal surfaces carry the product, signal yellow carries action, and desaturated telemetry colors retain stable meanings.
 
 ### Primary
 
-- **Action Amber** (`#f0b35a`): The interactive accent. Use it for primary controls, active challenge progress, and explicit course corrections—not for ambient decoration.
+- **Signal Yellow** (`#ffd43b`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
 
 ### Secondary
 
-- **Success Green** (`#63d6a0`): Checked commitments, positive deltas, saved state, and completed controls.
-- **Telemetry Blue** (`#55c7ff`): Charts, XP, comparative analysis, and live system labels.
+- **Success Green** (`#70d49b`): Checked commitments, positive deltas, saved state, and completed controls.
+- **Telemetry Blue** (`#8bb9d0`): Charts, XP, comparative analysis, and live system labels. Its reduced chroma keeps signal yellow dominant.
 
 ### Tertiary
 
-- **Danger Red** (`#ff6e62`): Negative deltas, course deviation, and blocking errors only.
+- **Danger Red** (`#ff776d`): Negative deltas, course deviation, and blocking errors only.
 
 ### Neutral
 
-- **Canvas** (`#020609`): The application ground.
-- **Command Paper** (`#071017`): Primary panels and contained chapters.
-- **Inset Surface** (`#0b1720`): Controls, chart fields, and row hover.
-- **Strong Inset Surface** (`#10232e`): Progress tracks, stronger control hover, and deeper subdivisions.
-- **Primary Ink** (`#dcecf4`): Mission language, headings, and primary values.
-- **Muted Ink** (`#8299a7`) and **Faint Ink** (`#536b79`): Supporting explanation and low-emphasis operational metadata.
-- **Telemetry Rule** (`#17313e`) and **Strong Telemetry Rule** (`#285063`): One-pixel structure and interactive boundaries.
+- **Canvas** (`#050607`): The application ground.
+- **Command Paper** (`#0d1012`): Primary panels and contained chapters.
+- **Inset Surface** (`#13171a`): Controls, chart fields, and row hover.
+- **Strong Inset Surface** (`#1a2024`): Progress tracks, stronger control hover, and deeper subdivisions.
+- **Primary Ink** (`#f1f1e9`): Mission language, headings, and primary values.
+- **Muted Ink** (`#9ca4a7`) and **Faint Ink** (`#697276`): Supporting explanation and low-emphasis operational metadata.
+- **Gunmetal Rule** (`#273036`) and **Strong Gunmetal Rule** (`#3c4a51`): One-pixel structure and interactive boundaries.
 
 ### Named Rules
 
 **The Single-Night Rule.** Momentum has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.
 
-**The Action Rarity Rule.** Amber appears where the user can act or where the system recommends a correction; its scarcity makes the next move obvious.
+**The Signal Rarity Rule.** Yellow appears where the user can act, where the system is active, or where it recommends a correction; its scarcity makes the next move obvious.
 
-**The One Signal, One Meaning Rule.** Amber means action or correction, cyan means telemetry, green means complete or positive, and red means deviation or error; never trade those meanings for decoration.
+**The One Signal, One Meaning Rule.** Yellow means action, focus, or correction; steel blue means telemetry; green means complete or positive; red means deviation or error. Never trade those meanings for decoration.
 
 ## Typography
 
@@ -198,7 +198,7 @@ Momentum is flat by default and uses no ambient panel shadow. Depth comes from t
 
 Primary panels, inputs, checks, and compact controls use a disciplined 1–2px radius. Major command surfaces clip one top-right corner, with an occasional bottom-left cut on standalone modules. Progress tracks, heatmap cells, chart keys, and telemetry tags are rectilinear. Circular geometry is reserved for status dots and milestone markers. Dashed strokes remain reserved for editable or not-yet-provided evidence.
 
-The Momentum mark is one uninterrupted rising amber path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never add a licensed emblem, shadow, glow, text, or decorative gradient.
+The Momentum mark is one uninterrupted rising signal-yellow path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never add a licensed emblem, shadow, glow, text, or decorative gradient.
 
 **The Tactical Geometry Rule.** Use clipped corners only on primary command surfaces and keep inner controls rectilinear. Repeating cut corners at every nested level creates visual noise.
 
@@ -207,8 +207,8 @@ The Momentum mark is one uninterrupted rising amber path with a narrow pale acce
 ### Buttons
 
 - **Shape:** Primary actions are 42–44px tall; compact controls are 32px tall; both use a 2px radius.
-- **Primary:** Action Amber with dark Action Ink and compact uppercase Momentum Mono. Use it for consequential actions and explicit course corrections.
-- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px amber outline with 3px offset. Disabled controls retain their labels, reduce opacity, and remove the active cursor.
+- **Primary:** Signal Yellow with dark Action Ink and compact uppercase Momentum Mono. Use it for consequential actions and explicit course corrections.
+- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px signal-yellow outline with 3px offset. Disabled controls retain their labels, reduce opacity, and remove the active cursor.
 - **Secondary:** Restore, reopen, and footer actions are text-led and quiet.
 
 ### Chips
@@ -227,7 +227,7 @@ The Momentum mark is one uninterrupted rising amber path with a narrow pale acce
 ### Inputs / Fields
 
 - **Style:** Measured targets use 44px steppers with 44px controls, right-aligned tabular inputs, and explicit units.
-- **Focus:** Amber outline for general keyboard focus; text entry may use a blue border and restrained blue halo.
+- **Focus:** Signal-yellow outline for general keyboard focus; text entry may use a steel-blue border and restrained steel-blue halo.
 - **Error / Disabled:** Invalid or unavailable actions name the problem where applicable. Disabled decrement controls use reduced opacity.
 
 ### Navigation
