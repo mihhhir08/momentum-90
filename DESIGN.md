@@ -1,6 +1,6 @@
 ---
-name: Momentum
-description: A grounded tactical command interface that turns a fixed 90-day challenge into direct daily execution, evidence, and course correction.
+name: BATCOMPUTER
+description: A private Batcave mission-control interface that turns a fixed 90-day challenge into direct execution, evidence, and course correction.
 colors:
   canvas: "#050607"
   paper: "#0d1012"
@@ -89,15 +89,15 @@ components:
     padding: "20px 22px"
 ---
 
-# Design System: Momentum
+# Design System: BATCOMPUTER
 
 ## Overview
 
-**Creative North Star: "The Cave Tactical Mainframe"**
+**Creative North Star: "The Batcave Forensic Command Array"**
 
-Momentum is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
+BATCOMPUTER is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
-The visual world is a grounded, cinematic command system: true-black tactical surfaces, sharp signal-yellow controls, desaturated steel-blue telemetry, compact mono instrumentation, and clipped corners borrowed from serious industrial hardware. It evokes the focus of a Batcomputer without licensed character art, comic-book ornament, noisy sci-fi chrome, or decorative glow. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
+The visual world is an immersive but operational Batcave command array: true-black tactical surfaces, sharp signal-yellow controls, desaturated steel-blue telemetry, compact mono instrumentation, clipped industrial geometry, and an original angular bat emblem. It should feel as though Batman uses it to review a mission, not like a generic dashboard wearing a superhero skin. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
 
 **Key Characteristics:**
 
@@ -107,7 +107,7 @@ The visual world is a grounded, cinematic command system: true-black tactical su
 - Graphite-blue rules and tonal layers instead of floating-card depth.
 - Signal yellow for action and system focus, steel blue for telemetry, green for completion, and red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
-- A compact signal-yellow rise mark identifies Momentum at product-chrome and app-icon scale.
+- An original signal-yellow angular bat mark identifies BATCOMPUTER at product-chrome and app-icon scale.
 - No planning ceremony, timers, or productivity theater between the user and daily logging.
 
 ## Colors
@@ -139,7 +139,7 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Named Rules
 
-**The Single-Night Rule.** Momentum has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.
+**The Single-Night Rule.** BATCOMPUTER has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.
 
 **The Signal Rarity Rule.** Yellow appears where the user can act, where the system is active, or where it recommends a correction; its scarcity makes the next move obvious.
 
@@ -182,7 +182,7 @@ At 1080px the wider dashboard chapters collapse to one column and weekly compari
 
 ## Elevation & Depth
 
-Momentum is flat by default and uses no ambient panel shadow. Depth comes from the four neutral surface levels, one-pixel graphite rules, inset fields, and occasional one-pixel inner strokes. The heatmap inspection ring and field-focus halo are functional exceptions, not decorative elevation. Data entry animation is brief and removed under reduced-motion preferences.
+BATCOMPUTER is flat by default and uses no ambient panel shadow. Depth comes from the four neutral surface levels, one-pixel gunmetal rules, inset fields, clipped command modules, and occasional one-pixel inner strokes. The heatmap inspection ring and field-focus halo are functional exceptions, not decorative elevation. Data entry animation is brief and removed under reduced-motion preferences.
 
 ### Shadow Vocabulary
 
@@ -198,7 +198,7 @@ Momentum is flat by default and uses no ambient panel shadow. Depth comes from t
 
 Primary panels, inputs, checks, and compact controls use a disciplined 1–2px radius. Major command surfaces clip one top-right corner, with an occasional bottom-left cut on standalone modules. Progress tracks, heatmap cells, chart keys, and telemetry tags are rectilinear. Circular geometry is reserved for status dots and milestone markers. Dashed strokes remain reserved for editable or not-yet-provided evidence.
 
-The Momentum mark is one uninterrupted rising signal-yellow path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never add a licensed emblem, shadow, glow, text, or decorative gradient.
+The BATCOMPUTER mark is a symmetrical angular bat silhouette constructed from crisp geometry in signal yellow with three black tactical cuts. Preserve its wide silhouette, transparent ground, generous clear space, and hard points; never replace it with a copied film/comic emblem or add an oval, shadow, glow, text, or decorative gradient.
 
 **The Tactical Geometry Rule.** Use clipped corners only on primary command surfaces and keep inner controls rectilinear. Repeating cut corners at every nested level creates visual noise.
 

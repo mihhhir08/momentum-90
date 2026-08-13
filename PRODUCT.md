@@ -12,11 +12,11 @@ The user is running a focused 90-day transformation challenge. They use the dash
 
 ## Product Purpose
 
-Momentum turns a demanding multi-goal challenge into a clear daily operating system. Success means the user knows what to do today, records it quickly, sees honest weighted progress, and stays confident enough to continue without losing accountability.
+BATCOMPUTER turns a demanding multi-goal challenge into a clear private mission-control system. Success means the user knows what to do today, records it quickly, sees honest weighted progress, and stays confident enough to continue without losing accountability.
 
 ## Positioning
 
-Unlike a generic habit tracker where every checkbox counts equally, Momentum weights actions by their contribution to the user's actual goals and separates execution, trend analysis, weekly comparison, and recovery planning.
+Unlike a generic habit tracker where every checkbox counts equally, BATCOMPUTER weights actions by their contribution to the user's actual goals and separates execution, trend analysis, weekly comparison, and recovery planning.
 
 ## Operating Context
 
@@ -35,11 +35,11 @@ The dashboard is checked throughout the day to update binary commitments and mea
 
 ## Brand Commitments
 
-- Product name: Momentum.
+- Product name: BATCOMPUTER.
 - Voice: direct, accountable, specific, and confidence-preserving; never saccharine or needlessly punitive.
 - Today's execution is the primary experience; analytics support action rather than displacing it.
 - A near-black tactical command canvas is the sole theme; off-white surfaces and a theme switch are intentionally excluded.
-- The visual direction should evoke a grounded cinematic command computer through clipped geometry, restrained telemetry, and industrial control language without copying licensed logos or character art.
+- The visual direction is an immersive Batcave operations terminal: original angular bat emblem, true-black surfaces, gunmetal structure, signal-yellow focus, forensic telemetry, and industrial command language. Do not copy a specific film or comic emblem.
 - Typography should distinguish mission, instruction, and operational data without becoming decorative or monotonous.
 - The analytical restraint and legibility of DataFast are a binding quality reference.
 - Avoid generic AI-generated interface tells: decorative gradients, glowing borders, nested-card clutter, arbitrary color, tiny text, and effects without information value.
