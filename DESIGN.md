@@ -2,17 +2,17 @@
 name: BATCOMPUTER
 description: An Arkham-inspired evidence network for a private 90-day mission.
 colors:
-  canvas: "#010509"
-  paper: "#061019"
-  surface: "#0a1721"
-  surface-strong: "#102431"
+  canvas: "#020405"
+  paper: "#060b0e"
+  surface: "#0a1115"
+  surface-strong: "#102129"
   ink: "#edf8ff"
   muted: "#89a6b8"
   faint: "#526d7e"
-  line: "#173244"
-  line-strong: "#28536c"
-  steel-blue: "#61c5ff"
-  steel-blue-soft: "#07283b"
+  line: "#173036"
+  line-strong: "#367985"
+  steel-blue: "#78ddeb"
+  steel-blue-soft: "#0a2930"
   action-ink: "#041016"
   success-green: "#68b99b"
   success-green-soft: "#0c251f"
@@ -93,13 +93,13 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Arkham Evidence Network"**
+**Creative North Star: "The Forensic Mission Network"**
 
 BATCOMPUTER is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
 The visual world is an original tactical evidence network inspired by the density, precision, and cinematic focus of Arkham-era Batcomputer interfaces: true-black scan fields, cold blue phosphor signals, compact mono instrumentation, asymmetric command rails, selection brackets, and an original winged command emblem. It should feel like a coherent forensic operating system, not a conventional dashboard wearing superhero decoration. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
 
-The first operational viewport is a continuous command deck, not a card gallery. A command mast establishes mission status; the mission queue owns the wide dossier channel; and a connected instrument rail carries weekly score, career output, publishing output, and contextual evidence for whichever task is selected. The trajectory chart becomes a scan field, weekly comparison becomes a variance console, and the assistant reads like a case file: observation, deviation, directive.
+The first operational viewport is a continuous command deck, not a card gallery. Persistent top and left command rails establish mission status and direct access; the mission queue owns the wide dossier channel; and a connected instrument rail carries weekly score, career output, publishing output, and contextual evidence. The trajectory chart becomes a scan field, weekly comparison becomes a variance console, and Alfred analysis reads like a case file: what worked, what weakened, the next correction, and the follow-up condition. A Cmd/Ctrl+K console offers direct analytical and logging commands without adding navigation clutter.
 
 **Key Characteristics:**
 
@@ -122,7 +122,7 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Primary
 
-- **Phosphor Blue** (`#61c5ff`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
+- **Phosphor Blue** (`#78ddeb`): The unmistakable interactive accent. Use it for primary controls, active challenge progress, selected system state, and explicit course corrections—not for ambient decoration.
 
 ### Secondary
 
@@ -135,13 +135,13 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Neutral
 
-- **Canvas** (`#010509`): The application ground.
-- **Command Paper** (`#061019`): Primary panels and contained chapters.
-- **Inset Surface** (`#0a1721`): Controls, chart fields, and row hover.
-- **Strong Inset Surface** (`#102431`): Progress tracks, stronger control hover, and deeper subdivisions.
+- **Canvas** (`#020405`): The application ground.
+- **Command Paper** (`#060b0e`): Primary panels and contained chapters.
+- **Inset Surface** (`#0a1115`): Controls, chart fields, and row hover.
+- **Strong Inset Surface** (`#102129`): Progress tracks, stronger control hover, and deeper subdivisions.
 - **Primary Ink** (`#edf8ff`): Mission language, headings, and primary values.
 - **Muted Ink** (`#89a6b8`) and **Faint Ink** (`#526d7e`): Supporting explanation and low-emphasis operational metadata.
-- **Gunmetal Rule** (`#173244`) and **Strong Gunmetal Rule** (`#28536c`): One-pixel structure and interactive boundaries.
+- **Gunmetal Rule** (`#173036`) and **Strong Gunmetal Rule** (`#367985`): One-pixel structure and interactive boundaries.
 
 ### Named Rules
 
@@ -180,9 +180,9 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ## Layout
 
-The application uses a centered fluid container capped at 1520px with an asymmetric left command rail and horizontal gutters that scale from 24px to 92px. A 12px dashboard gap and one-pixel rules create the instrument rhythm. The first viewport moves from the command mast and challenge status directly into today’s weighted commitments beside the connected live-instrument rail. Analytical proof follows; it never displaces daily execution.
+The application uses a centered fluid container capped at 1520px with a persistent left command rail and horizontal gutters that scale from 24px to 92px. A 12px dashboard gap and one-pixel rules create the instrument rhythm. The first viewport moves from the command mast and challenge status directly into today’s weighted commitments beside the connected live-instrument rail. Analytical proof follows; it never displaces daily execution. The rail indexes nine operational sectors and exposes the keyboard command console.
 
-At 1080px the wider dashboard chapters collapse to one column and weekly comparisons become two-by-two. At 760px content gutters reduce to 14px, task groups stack, the heatmap changes from 30 to 15 columns, and body metrics become two columns. At 480px the header stacks, the private label hides, task controls expand to the available width, and wide charts retain a 720px analytical canvas inside horizontal overflow.
+At 1080px the command rail disappears, wider dashboard chapters collapse to one column, and the mission queue remains ahead of supporting KPI evidence. At 760px content gutters reduce to 14px, task groups stack, the heatmap changes from 30 to 15 columns, and body metrics become two columns. At 480px the header stacks, the private label hides, task controls expand to the available width, signal and dossier metrics become one column, and wide charts retain an analytical canvas inside horizontal overflow.
 
 **The Story Survives Reflow Rule.** Responsive layout may change columns and density, but it preserves challenge status → weighted execution → evidence → reflection.
 

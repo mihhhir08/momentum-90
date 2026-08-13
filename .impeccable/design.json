@@ -4,10 +4,10 @@
   "title": "Design System: BATCOMPUTER",
   "extensions": {
     "colorMeta": {
-      "canvas": { "role": "neutral", "displayName": "Black Scan Field", "canonical": "#010509", "tonalRamp": ["#010509", "#061019", "#0a1721", "#102431"] },
-      "paper": { "role": "neutral", "displayName": "Command Paper", "canonical": "#061019", "tonalRamp": ["#010509", "#061019", "#0a1721", "#102431"] },
+      "canvas": { "role": "neutral", "displayName": "Black Scan Field", "canonical": "#020405", "tonalRamp": ["#020405", "#060b0e", "#0a1115", "#102129"] },
+      "paper": { "role": "neutral", "displayName": "Command Paper", "canonical": "#060b0e", "tonalRamp": ["#020405", "#060b0e", "#0a1115", "#102129"] },
       "ink": { "role": "neutral", "displayName": "Primary Readout", "canonical": "#edf8ff", "tonalRamp": ["#526d7e", "#89a6b8", "#abdfff", "#edf8ff"] },
-      "steel-blue": { "role": "primary", "displayName": "Phosphor Blue", "canonical": "#61c5ff", "tonalRamp": ["#07283b", "#28536c", "#61c5ff", "#abdfff"] },
+      "steel-blue": { "role": "primary", "displayName": "Phosphor Blue", "canonical": "#78ddeb", "tonalRamp": ["#0a2930", "#367985", "#78ddeb", "#abdfff"] },
       "success-green": { "role": "secondary", "displayName": "Evidence Green", "canonical": "#68b99b", "tonalRamp": ["#0c251f", "#2f6e59", "#68b99b", "#b9e3d4"] },
       "danger-red": { "role": "tertiary", "displayName": "Deviation Red", "canonical": "#d36d71", "tonalRamp": ["#32161a", "#7b343a", "#d36d71", "#f3b9bc"] }
     },
@@ -72,8 +72,8 @@
     }
   ],
   "narrative": {
-    "northStar": "The Arkham Evidence Network",
-    "overview": "BATCOMPUTER is one continuous tactical workspace. A command mast establishes mission state, the active dossier owns daily execution, connected instruments report evidence, and the remaining sectors support review and course correction.",
+    "northStar": "The Forensic Mission Network",
+    "overview": "BATCOMPUTER is one continuous tactical workspace. Persistent command rails establish mission state and access, the mission queue owns daily execution, connected instruments report evidence, and Cmd/Ctrl+K makes analytical commands immediately available.",
     "keyCharacteristics": ["True-black scan fields", "Cold blue phosphor signals", "Asymmetric command rails", "Compressed mission typography", "Original winged command mark", "Section-specific instrument framing"],
     "rules": [
       { "name": "Evidence Before Atmosphere", "body": "Every tactical device must clarify state, hierarchy, selection, or relation.", "section": "layout" },

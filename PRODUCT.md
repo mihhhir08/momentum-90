@@ -28,6 +28,9 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Weighted scoring across Audience, Career, Body, and Hair.
 - Daily X volume, LinkedIn and optional Instagram publishing, job applications until employment, career-growth work, clean food, protein, strength or planned recovery, steps, water, and scalp massage.
 - Multi-series progress chart, weekly comparison, consistency heatmap, evidence-based weekly course correction, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
+- A persistent nine-sector command rail, full signal inspector, and Cmd/Ctrl+K console for rapid navigation, analysis, date inspection, and weight logging.
+- Truthful record semantics: unlogged days are unknown, open days remain provisional, closed days become evidence, and recovery or milestone states remain visually distinct.
+- An operational dossier that remains visible throughout the challenge and resolves into the final 90-day record instead of appearing only after completion.
 - Incomplete high-priority commitments surface factual proof from the user's own prior completions when that proof exists; the system never invents or stores identity claims.
 - Supabase passwordless email sign-in, cloud-synced logs, and private photo storage with local-storage fallback.
 - Existing scoring rules, saved history, cloud schema, and data migration behavior must remain compatible through redesigns.
