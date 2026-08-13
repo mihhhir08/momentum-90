@@ -2,24 +2,24 @@
 name: BATCOMPUTER
 description: A private Batcave mission-control interface that turns a fixed 90-day challenge into direct execution, evidence, and course correction.
 colors:
-  canvas: "#050607"
-  paper: "#0d1012"
-  surface: "#13171a"
-  surface-strong: "#1a2024"
-  ink: "#f1f1e9"
-  muted: "#9ca4a7"
-  faint: "#697276"
-  line: "#273036"
-  line-strong: "#3c4a51"
+  canvas: "#03070a"
+  paper: "#081018"
+  surface: "#0d1821"
+  surface-strong: "#142431"
+  ink: "#eaf2f7"
+  muted: "#94a8b5"
+  faint: "#5f7482"
+  line: "#1b3443"
+  line-strong: "#31576d"
   steel-blue: "#78bde6"
   steel-blue-soft: "#0c2637"
-  action-ink: "#090a08"
+  action-ink: "#041016"
   success-green: "#68b99b"
-  success-green-soft: "#10261a"
+  success-green-soft: "#0c251f"
   telemetry-blue: "#9fc8df"
-  telemetry-blue-soft: "#13232b"
+  telemetry-blue-soft: "#102735"
   hair-neutral: "#8e9da7"
-  danger-red: "#ff776d"
+  danger-red: "#d36d71"
 typography:
   display:
     fontFamily: "Momentum Sans, sans-serif"
@@ -110,7 +110,9 @@ The first operational viewport is a command deck, not a card gallery. The missio
 - Cold steel blue for action, focus, and telemetry; green for completion; red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
 - An original steel-blue angular bat mark identifies BATCOMPUTER at product-chrome and app-icon scale.
-- One restrained scan-line boot sequence runs only on the first load of each day and respects reduced-motion settings.
+- One dismissible four-second secure-terminal diagnostic runs once per browser session and respects reduced-motion settings.
+- Daily records can be intentionally closed; missing, open, and closed days remain distinct in the evidence model.
+- Every heatmap cell opens a compact mission record without adding a navigation layer.
 - The mission chart gives the overall trajectory highest contrast, keeps supporting systems secondary, and annotates the target band, mission milestones, and planned recovery without adding extra chart modes.
 - No planning ceremony, timers, or productivity theater between the user and daily logging.
 
@@ -129,25 +131,25 @@ The palette is deliberately narrow: four neutral black and gunmetal surfaces car
 
 ### Tertiary
 
-- **Danger Red** (`#ff776d`): Negative deltas, course deviation, and blocking errors only.
+- **Danger Red** (`#d36d71`): Negative deltas, course deviation, and blocking errors only.
 
 ### Neutral
 
-- **Canvas** (`#050607`): The application ground.
-- **Command Paper** (`#0d1012`): Primary panels and contained chapters.
-- **Inset Surface** (`#13171a`): Controls, chart fields, and row hover.
-- **Strong Inset Surface** (`#1a2024`): Progress tracks, stronger control hover, and deeper subdivisions.
-- **Primary Ink** (`#f1f1e9`): Mission language, headings, and primary values.
-- **Muted Ink** (`#9ca4a7`) and **Faint Ink** (`#697276`): Supporting explanation and low-emphasis operational metadata.
-- **Gunmetal Rule** (`#273036`) and **Strong Gunmetal Rule** (`#3c4a51`): One-pixel structure and interactive boundaries.
+- **Canvas** (`#03070a`): The application ground.
+- **Command Paper** (`#081018`): Primary panels and contained chapters.
+- **Inset Surface** (`#0d1821`): Controls, chart fields, and row hover.
+- **Strong Inset Surface** (`#142431`): Progress tracks, stronger control hover, and deeper subdivisions.
+- **Primary Ink** (`#eaf2f7`): Mission language, headings, and primary values.
+- **Muted Ink** (`#94a8b5`) and **Faint Ink** (`#5f7482`): Supporting explanation and low-emphasis operational metadata.
+- **Gunmetal Rule** (`#1b3443`) and **Strong Gunmetal Rule** (`#31576d`): One-pixel structure and interactive boundaries.
 
 ### Named Rules
 
 **The Single-Night Rule.** BATCOMPUTER has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.
 
-**The Signal Rarity Rule.** Yellow appears where the user can act, where the system is active, or where it recommends a correction; its scarcity makes the next move obvious.
+**The Signal Rarity Rule.** Steel blue appears where the user can act, where the system is active, or where it recommends a correction; its scarcity makes the next move obvious.
 
-**The One Signal, One Meaning Rule.** Yellow means action, focus, or correction; steel blue means telemetry; green means complete or positive; red means deviation or error. Never trade those meanings for decoration.
+**The One Signal, One Meaning Rule.** Bright steel blue means action, focus, or correction; pale blue means supporting telemetry; green means complete or positive; red means deviation or error. Never trade those meanings for decoration.
 
 ## Typography
 
