@@ -1,25 +1,25 @@
 ---
 name: Momentum
-description: A personal mission ledger that turns a fixed 90-day challenge into direct daily execution and honest evidence.
+description: A grounded tactical command interface that turns a fixed 90-day challenge into direct daily execution, evidence, and course correction.
 colors:
-  canvas: "#080d13"
-  paper: "#101720"
-  surface: "#151e28"
-  surface-strong: "#1b2732"
-  ink: "#f2f6fa"
-  muted: "#a5afba"
-  faint: "#7f8b97"
-  line: "#26323e"
-  line-strong: "#3b4a59"
-  action-coral: "#ff7657"
-  spark-coral: "#ff5d35"
-  action-coral-soft: "#2a1c19"
-  action-ink: "#0b1016"
-  success-green: "#48c991"
-  success-green-soft: "#13271f"
-  data-blue: "#69a8ff"
-  data-blue-soft: "#14243a"
-  caution-amber: "#e2ad57"
+  canvas: "#020609"
+  paper: "#071017"
+  surface: "#0b1720"
+  surface-strong: "#10232e"
+  ink: "#dcecf4"
+  muted: "#8299a7"
+  faint: "#536b79"
+  line: "#17313e"
+  line-strong: "#285063"
+  action-amber: "#f0b35a"
+  action-amber-soft: "#241b0c"
+  action-ink: "#020609"
+  success-green: "#63d6a0"
+  success-green-soft: "#0a281d"
+  telemetry-blue: "#55c7ff"
+  telemetry-blue-soft: "#082130"
+  body-blue: "#4e8dff"
+  danger-red: "#ff6e62"
 typography:
   display:
     fontFamily: "Momentum Sans, sans-serif"
@@ -56,17 +56,8 @@ typography:
     fontWeight: 400
     lineHeight: 1.5
 rounded:
-  heat-cell: "3px"
-  check: "6px"
-  compact-control: "7px"
-  control: "8px"
-  action: "9px"
-  field: "10px"
-  inset: "12px"
-  summary: "14px"
-  kpi-ledger: "15px"
-  panel: "16px"
-  pill: "999px"
+  tactical: "2px"
+  heat-cell: "1px"
 spacing:
   hairline-gap: "6px"
   control-gap: "8px"
@@ -78,23 +69,23 @@ spacing:
   shell-top: "34px"
 components:
   button-primary:
-    backgroundColor: "{colors.action-coral}"
+    backgroundColor: "{colors.action-amber}"
     textColor: "{colors.action-ink}"
     typography: "{typography.body}"
-    rounded: "{rounded.action}"
+    rounded: "{rounded.tactical}"
     padding: "0 16px"
     height: "42px"
   button-secondary:
     backgroundColor: "transparent"
     textColor: "{colors.muted}"
     typography: "{typography.label}"
-    rounded: "{rounded.compact-control}"
+    rounded: "{rounded.tactical}"
     padding: "0 10px"
     height: "32px"
   panel:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.panel}"
+    rounded: "{rounded.tactical}"
     padding: "20px 22px"
 ---
 
@@ -102,58 +93,57 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Personal Mission Ledger"**
+**Creative North Star: "The Cave Tactical Mainframe"**
 
 Momentum is a private operating surface for one person’s fixed 90-day transformation challenge, which began August 7. It is not a configurable productivity platform or a gallery of dashboard cards. The interface protects the existing goals, scoring weights, history, and evidence while letting the user record today’s weighted commitments directly.
 
-The visual world is a single deep-neutral dark ledger. Graphite rules and four near-black surface levels create order; coral identifies action; blue reports analytical comparison; green confirms completion. Momentum Sans gives mission language authority, Momentum Mono makes quantitative state precise, and Georgia is reserved for rare reflective editorial notes.
+The visual world is a grounded, cinematic command system: near-black tactical surfaces, cold-blue telemetry, restrained amber controls, compact mono instrumentation, and clipped corners borrowed from serious industrial hardware. It evokes the focus of a Batcomputer without licensed character art, comic-book ornament, noisy sci-fi chrome, or decorative glow. Momentum Sans carries mission language while Momentum Mono identifies system state and measured data.
 
 **Key Characteristics:**
 
 - Personal-only, private, and specific to the August 7 challenge.
 - Direct execution: today’s weighted commitments appear before supporting analytics.
 - A single deep-neutral dark theme with no theme switch or off-white surface.
-- Graphite rules and tonal layers instead of floating-card depth.
-- Coral for action, blue for data, green for completion, and amber for caution.
+- Graphite-blue rules and tonal layers instead of floating-card depth.
+- Amber for action, cyan for telemetry, green for completion, and red only for negative deviation or error.
 - Expressive Momentum Sans, operational Momentum Mono, and rare Georgia reflection.
-- A continuous coral rise mark identifies Momentum at product-chrome and app-icon scale.
+- A compact amber rise mark identifies Momentum at product-chrome and app-icon scale.
 - No planning ceremony, timers, or productivity theater between the user and daily logging.
 
 ## Colors
 
-The palette is deliberately narrow: four deep neutrals carry the product, one coral carries action, and data colors retain stable meanings.
+The palette is deliberately narrow: four near-black neutrals carry the product, amber carries action, and telemetry colors retain stable meanings.
 
 ### Primary
 
-- **Action Coral** (`#ff7657`): The interactive accent. Use it for primary controls, live links, required attention, progress, and blocking errors—not for ambient decoration.
+- **Action Amber** (`#f0b35a`): The interactive accent. Use it for primary controls, active challenge progress, and explicit course corrections—not for ambient decoration.
 
 ### Secondary
 
-- **Spark Coral** (`#ff5d35`): The default MiniLine data-series stroke. It reports the featured sparkline and is not an interactive state.
-- **Success Green** (`#48c991`): Checked commitments, positive deltas, saved state, and completed controls.
-- **Data Blue** (`#69a8ff`): XP, comparative analysis, and quantitative labels.
+- **Success Green** (`#63d6a0`): Checked commitments, positive deltas, saved state, and completed controls.
+- **Telemetry Blue** (`#55c7ff`): Charts, XP, comparative analysis, and live system labels.
 
 ### Tertiary
 
-- **Caution Amber** (`#e2ad57`): Secondary goal-series data and saving or caution states.
+- **Danger Red** (`#ff6e62`): Negative deltas, course deviation, and blocking errors only.
 
 ### Neutral
 
-- **Canvas** (`#080d13`): The application ground.
-- **Ledger Paper** (`#101720`): Primary panels and contained chapters.
-- **Inset Surface** (`#151e28`): Controls, chart fields, and row hover.
-- **Strong Inset Surface** (`#1b2732`): Progress tracks, stronger control hover, and deeper subdivisions.
-- **Primary Ink** (`#f2f6fa`): Mission language, headings, and primary values.
-- **Muted Ink** (`#a5afba`) and **Faint Ink** (`#7f8b97`): Supporting explanation and low-emphasis operational metadata.
-- **Graphite Rule** (`#26323e`) and **Strong Graphite Rule** (`#3b4a59`): One-pixel structure and interactive boundaries.
+- **Canvas** (`#020609`): The application ground.
+- **Command Paper** (`#071017`): Primary panels and contained chapters.
+- **Inset Surface** (`#0b1720`): Controls, chart fields, and row hover.
+- **Strong Inset Surface** (`#10232e`): Progress tracks, stronger control hover, and deeper subdivisions.
+- **Primary Ink** (`#dcecf4`): Mission language, headings, and primary values.
+- **Muted Ink** (`#8299a7`) and **Faint Ink** (`#536b79`): Supporting explanation and low-emphasis operational metadata.
+- **Telemetry Rule** (`#17313e`) and **Strong Telemetry Rule** (`#285063`): One-pixel structure and interactive boundaries.
 
 ### Named Rules
 
 **The Single-Night Rule.** Momentum has one deep-dark theme. Do not add off-white surfaces, a light mode, or a theme switch.
 
-**The Action Rarity Rule.** Coral appears where the user can act or must attend; its scarcity is what makes the next move obvious.
+**The Action Rarity Rule.** Amber appears where the user can act or where the system recommends a correction; its scarcity makes the next move obvious.
 
-**The One Signal, One Meaning Rule.** Action Coral means interaction or intervention, Spark Coral means the default MiniLine series, blue means analysis, green means complete or positive, and amber means caution; never trade those meanings for decoration.
+**The One Signal, One Meaning Rule.** Amber means action or correction, cyan means telemetry, green means complete or positive, and red means deviation or error; never trade those meanings for decoration.
 
 ## Typography
 
@@ -206,29 +196,29 @@ Momentum is flat by default and uses no ambient panel shadow. Depth comes from t
 
 ## Shapes
 
-The radius ramp is compact and nested: heatmap cells use 3px; checks 6px; compact controls 7px; action buttons and sign-in fields 9px; steppers 10px; inset evidence 12px; challenge status 14px; the shared KPI ledger 15px; and primary panels 16px, reducing to 13px on the narrowest viewport. Pills and progress tracks are fully rounded. Score rings and milestone markers are circular. Dashed strokes are reserved for editable or not-yet-provided evidence.
+Primary panels, inputs, checks, and compact controls use a disciplined 1–2px radius. Major command surfaces clip one top-right corner, with an occasional bottom-left cut on standalone modules. Progress tracks, heatmap cells, chart keys, and telemetry tags are rectilinear. Circular geometry is reserved for status dots and milestone markers. Dashed strokes remain reserved for editable or not-yet-provided evidence.
 
-The Momentum mark is one uninterrupted rising coral path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never place it inside a decorative tile or add shadow, glow, text, or a gradient.
+The Momentum mark is one uninterrupted rising amber path with a narrow pale acceleration cut. Preserve its silhouette, transparent ground, generous clear space, and forward-right orientation; never add a licensed emblem, shadow, glow, text, or decorative gradient.
 
-**The Nested Radius Rule.** Radius decreases as components move inward: panel, inset, control, then check or cell. Do not repeat large rounded rectangles at every level.
+**The Tactical Geometry Rule.** Use clipped corners only on primary command surfaces and keep inner controls rectilinear. Repeating cut corners at every nested level creates visual noise.
 
 ## Components
 
 ### Buttons
 
-- **Shape:** Primary actions are 42–44px tall with a 9px radius; compact controls are 32px tall with 7–8px radii.
-- **Primary:** Action Coral with dark Action Ink, 12px Momentum Sans, weight 750, and 16px horizontal padding. Use it for consequential actions and direct logging controls.
-- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px coral outline with 3px offset. Disabled commit and decrement states retain their labels, reduce opacity, and remove the active cursor.
+- **Shape:** Primary actions are 42–44px tall; compact controls are 32px tall; both use a 2px radius.
+- **Primary:** Action Amber with dark Action Ink and compact uppercase Momentum Mono. Use it for consequential actions and explicit course corrections.
+- **Hover / Focus:** Neutral controls move one tonal step stronger on hover. All keyboard-focusable controls receive a 2px amber outline with 3px offset. Disabled controls retain their labels, reduce opacity, and remove the active cursor.
 - **Secondary:** Restore, reopen, and footer actions are text-led and quiet.
 
 ### Chips
 
-- **Style:** Compact 7px rounded metadata with graphite borders, muted 11px text, and 0 by 8–10px internal spacing.
+- **Style:** Compact rectilinear metadata with telemetry borders, muted 9–10px mono text, and 0 by 8–10px internal spacing.
 - **State:** Selected analytical ranges and status chips retain explicit text; color never replaces the label.
 
 ### Cards / Containers
 
-- **Corner Style:** Primary panels use 16px; the shared KPI ledger uses 15px; challenge status uses 14px; inner evidence uses 12px or less.
+- **Corner Style:** Primary panels and controls use 1–2px radii. Standalone command surfaces may clip a 10–14px corner.
 - **Background:** Paper for ledger chapters, Surface for operational footers and hover, Strong Surface for tracks and deeper subdivisions.
 - **Shadow Strategy:** Flat; see Elevation & Depth.
 - **Border:** One-pixel graphite boundaries and dividers. Repeated metrics share one container rather than floating independently.
@@ -237,7 +227,7 @@ The Momentum mark is one uninterrupted rising coral path with a narrow pale acce
 ### Inputs / Fields
 
 - **Style:** Measured targets use 44px steppers with 44px controls, right-aligned tabular inputs, and explicit units.
-- **Focus:** Coral outline for general keyboard focus; text entry may use a blue border and restrained blue halo.
+- **Focus:** Amber outline for general keyboard focus; text entry may use a blue border and restrained blue halo.
 - **Error / Disabled:** Invalid or unavailable actions name the problem where applicable. Disabled decrement controls use reduced opacity.
 
 ### Navigation

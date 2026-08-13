@@ -27,7 +27,8 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - A 90-day challenge with a configurable start date and days-remaining framing.
 - Weighted scoring across Audience, Career, Body, and Hair.
 - Daily X volume, LinkedIn and optional Instagram publishing, job applications until employment, career-growth work, clean food, protein, strength or planned recovery, steps, water, and scalp massage.
-- Multi-series progress chart, weekly comparison, consistency heatmap, weekly review, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
+- Multi-series progress chart, weekly comparison, consistency heatmap, evidence-based weekly course correction, body metrics, progress photos, milestones, backups, and end-of-challenge summary.
+- Incomplete high-priority commitments surface factual proof from the user's own prior completions when that proof exists; the system never invents or stores identity claims.
 - Supabase passwordless email sign-in, cloud-synced logs, and private photo storage with local-storage fallback.
 - Existing scoring rules, saved history, cloud schema, and data migration behavior must remain compatible through redesigns.
 - The interface must remain responsive, keyboard accessible, and legible in its single deep-dark theme.
@@ -37,7 +38,8 @@ The dashboard is checked throughout the day to update binary commitments and mea
 - Product name: Momentum.
 - Voice: direct, accountable, specific, and confidence-preserving; never saccharine or needlessly punitive.
 - Today's execution is the primary experience; analytics support action rather than displacing it.
-- A deep, neutral dark canvas is the sole theme; off-white surfaces and a theme switch are intentionally excluded.
+- A near-black tactical command canvas is the sole theme; off-white surfaces and a theme switch are intentionally excluded.
+- The visual direction should evoke a grounded cinematic command computer through clipped geometry, restrained telemetry, and industrial control language without copying licensed logos or character art.
 - Typography should distinguish mission, instruction, and operational data without becoming decorative or monotonous.
 - The analytical restraint and legibility of DataFast are a binding quality reference.
 - Avoid generic AI-generated interface tells: decorative gradients, glowing borders, nested-card clutter, arbitrary color, tiny text, and effects without information value.
@@ -55,6 +57,7 @@ The dashboard is checked throughout the day to update binary commitments and mea
 3. Make incomplete work clear without damaging confidence.
 4. Preserve history and trust through every product change.
 5. Use each visual device for one distinct analytical purpose.
+6. Turn weekly evidence into one specific next correction; avoid generic motivation and identity statements.
 
 ## Accessibility & Inclusion
 
